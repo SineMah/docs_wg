@@ -41,6 +41,7 @@ mysql -uroot -p < 20231012.places_0.sql
 ```
 
 # Test-Queries
+[GraphQL](https://places-stg.wertgarantie.com/_graphiql)
 ## GraphQL (Quelle MySQL)
 ```
 {
