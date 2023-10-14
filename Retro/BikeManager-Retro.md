@@ -1,0 +1,14 @@
+- [x] Kommunikation ist mangelhaft
+	- [x] Features werden nicht mit dem Backend abgesprochen ob und wie Daten vorliegen
+	- [x] Features oft nicht eindeutig bzw konkret formuliert
+	- [x] technisches Wording ist nicht eindeutig. Bsp.: Es wird Query gesagt/geschrieben, HTTP-Request ist gemeint
+	- [x] Kommunikation scheint intern im BikeManager-Team verzögert zu sein mit Blick von außen (Weekly, Malte dachte, dass das Backen noch etwas für den BikeTacho umsetzen muss)
+- [x] unnötiger Zeitdruck vor Ostern (Release war dann doch später)
+	- [x] darunter leiden andere Projekte
+- [x] Datenhaltung 
+	- [x] Rahmenhöhe als String mit unterschiedlichsten Einheiten; auf Stage befindet sich ein Satz in dem Attribut ...
+	- [x] Kaufpreis liegt in mind. 4 Formaten vor (inkl. Nonbreaking Space und Eurozeichen) -> Ticket 2501
+- [x] Flutter-Fehler werden von der Agentur als Backend-Fehler missinterpretiert. `HttpException: Content size exceeds specified contentLength. 863 bytes written while expected 412` Evtl. liegt ein Unverständnis vor, wie HTTP fuktioniert
+- [x] Es wird nicht ausreichend oder sehr zeitverzögert vom BM-Team getestet. Meist erfolgen Blackbox-Tests mit den selben Usern, die nicht alle Fälle abdecken. (bspw alter Datenbestand aus Legacy mit unsauberen Testdaten von der ersten App)
+- [x] Zusammenarbeit mit den Entwicklern direkt hat sehr gut funktioniert auch Teamübergreifend (Sofia, Finn, Tonia)
+- [x] BM ist live

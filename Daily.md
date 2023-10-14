@@ -1,0 +1,220 @@
+- [x] Apps Prod ausspielen
+- [x] diverse Places Tickets
+	- [x] Schlauchomaten per Excel
+	- [x] Filter für Schlauchomaten
+		- [x] filter wahlweise mit or oder and auf mehrere Attribute
+	- [x] Geo Daten werden nicht aktualisiert
+	- [x] CSV-Import wieder aktivieren
+	- [x] attributePlaces  x-fach von FE gespeichert
+	- [x] Gespeichertet Werte werden verzögert angezeigt
+	- [x] Places mit Datenspiegelung sollen edited_at bekommen
+	- [x] Geo-PR mergen (stage)
+	- [x] Places mergen (stage)
+- [x] schauen wir mal, was bei den Apps noch kommt ...
+- [x] Buck Tierarzt
+- [x] Sollte es nciht einen erweiterten Filter für Attribute geben? @Benni
+- [x] HR wegen Jobticket antworten
+- [x] Streitmodule
+- [x] Places Prod ausspielen
+- [x] Feedback Stage release
+- [x] Feedback Prod release 
+- [x] Unit Tests/Feature Tests
+	- [x] Docs
+		- [x] DTOs testen
+		- [x] PDF::preview (feature test)
+		- [x] Factory::load($data)
+	- [ ] Apps
+	- [x] Places
+		- [x] Unit Tests
+		- [x] Feature Tests
+	- [ ] Feedback
+	- [ ] Assets
+- [ ] Spatie DTO ersetzen
+	- [x] Places
+	- [x] Apps
+	- [x] Docs
+	- [x] Feedback
+	- [x] Assets
+- [x] Laravel 10 updates
+	- [x] Places
+	- [x] Apps
+	- [x] Docs
+	- [x] Feedback
+	- [x] Assets
+- [ ] Swagger/OpenAPI
+	- [x] Feedback
+	- [x] Apps
+		- [x] /api/v1/bikemanager/show-prio-list?type=
+		- [x] /api/v1/bikemanager/tours/[ID]/upload
+		- [x] /api/v1/bikemanager/tours/$tourId/download/geo
+		- [x] /api/v1/bikemanager/tours/metrics/summary/user/[UUID]
+		- [x] /api/v1/bikemanager/tours/metrics/summary/user/[UUID]/devices
+		- [x] /api/v2/bikemanager/tours?filter[inventory_user_uuid]=[UUID]
+		- [x] POST /api/v1/bikemanager/tours
+		- [x] /api/v1/bikemanager/tours/[ID]/delete
+		- [x] /api/v1/bikemanager/tours/customer/[NUMBER]
+		- [x] /api/v1/bikemanager/bike/pdf
+		- [x] /api/v1/bikemanager/pickup
+		- [x] /api/v1/damage/devices/{{DAMAGE_DEVICE_UUID}}
+		- [x] /api/v1/damage/devices
+		- [x] customer prefill
+	- [ ] Places
+	- [x] Docs
+	- [x] Assets
+	- [x] Prüfung ob das Swagger-Feature mit interaktivem REST-Client mit dem OA-Package möglich ist
+	- [x] meta als schema anlegen
+	- [x] fachliche Erklärung für einzelne Felder über techn. Bezeichner hinaus
+		- [x] Bsp: is_public: Gibt an, dass ein kommentar öffentlich sichtbar ist
+- [x] elastic_license@elastic.co fragen für Places, ob und welche Licenz nötig ist
+- [x] JSON:API Termin für unsere Service-Landschaft
+- [x] JSON:API-Errors in Laravel mit Exceptions generieren. Kurzer Termin
+- [ ] Keycloak Lib anpassen
+	- [ ] Public key des Realm downloaded, wenn nicht angegeben. [https://id.wertgarantie.com/auth/realms/wertgarantie](https://id.wertgarantie.com/auth/realms/wertgarantie)
+	- [ ] 401 werfen, wenn rollen nicht stimmen bzw client nicht passt
+- [x] Apps BikeTacho Gast-Upgrade Route [SWDBAPI-2593](https://jira.wertgarantie.com/browse/SWDBAPI-2593)
+- [x] Places3 CSV import auf P reaktivieren
+- [x] 13.06 Schlauchomaten Places ausspielen 
+	- [x] https://bitbucket.wertgarantie.com/projects/SWDBHYVE/repos/hyve-places-3/pull-requests/303/overview
+- [ ] PHP 8.2
+	- [x] Places
+	- [x] Docs
+	- [x] Assets
+	- [ ] Apps
+	- [x] Feedback
+- [ ] Docs hinter Kraken
+- [ ] Keycloak
+	- [x] Apps
+	- [x] Assets
+	- [ ] Docs
+- [x] 14.06 Apps DTO Update auf Stage ausspielen
+- [x] 27.06 Apps Laravel 10 & DTO Prod updaten
+- [x] 20.06 Places Laravel 10 Prod updaten
+- [x] Nina Schadenmelden genauer zeigen/erklären
+- [ ] Schadenmelden debuggen
+	- [x] Delbish Khishman Ismail nach weiteren Daten fragen
+	- [x] Data Prod test - generierte Daten korrekt
+	- [ ] Refactoring
+	- [x] Exception if values empty
+- [x] ClockPort updated (branch wg -> master)
+- [x] Laravel Keycloak Guard Tests schreiben
+	- [x] wie laravel config mocken?
+- [x] Laravel Projekt zum Managen von Keycloak?
+	- [x] https://bitbucket.org/acwebdev/keycloak-php-sdk/src/master/
+- [x] Feedback auf Keycloak Laravel umstellen
+- [x] Clockport auf Keycloak Laravel umstellen
+- [x] Clockport Tests
+- [x] Termin am Montag bzgl NL Anbindung schieben?
+- [ ] Unit/Feature Tests
+	- [x] Places
+	- [ ] Apps
+- [ ] OverPass-API 
+	- [ ] Schlauchomaten in BikeManager bewerten, editieren, löschen
+		- [ ] Fehler melden, Vorschläge zur Datenverbesserung einbringen 
+		- [ ] Update der OpenStreetMap-Daten mit redaktioneller Kontrolle
+		- [ ] Wertgarantie positiveres Image in der Community auf lange Zeit
+- [x] CloakPort um user in Db erweitern
+- [ ] milvus
+- [ ] dragenfly
+- [ ] tauri
+- [ ] RealWorld
+	- [ ] https://github.com/gothinkster/realworld
+	- [ ] https://github.com/gothinkster/realworld/discussions/categories/added-implementations
+- [ ] https://jsoncrack.com/
+- [ ] DDD
+- [ ] Java SpringBoot
+	- [ ] Kotlin
+- [ ] Rust
+- [x] GET api/clone/agent bei den places mal die Erweiterung dass da auch FH-Nummer, Adresse und Name mit drin sind
+- [x] Route POST clone/attributes fertig kopiert  
+- [x] tolkien kündigen
+- [x] spotify kündigen
+- [x] Step 5 für async und mehrere Worker umschreiben
+	- [x] jeder job für jeden place muss in einer seperaten Tabelle von den workern gespeichert werden
+	- [x] foreign key: batch_id
+	- [x] für kopierte Einträge: count
+- [x] CIAM
+	- [x] Keycloak-Integration?
+	- [x] CIAM liefert User Daten (Stammdaten, Verträge) oder Scopes?
+- [ ] Dennis Urlaubsvertretung
+	- [ ] Übergabe Contracts
+		- [ ] Niederlande live
+			- [ ] https://confluence.wertgarantie.com/pages/viewpage.action?pageId=172855702
+			- [ ] PR mergen: https://bitbucket.wertgarantie.com/projects/SWDBHYVE/repos/hyve-contracts/pull-requests/478/overview
+			- [ ] Mails anpassen/PRs mergen
+			- [ ] https://jira.wertgarantie.com/browse/SWDBAPI-2662
+		- [ ] Spanien live
+			- [ ] Mails anpassen/PRs mergen
+			- [ ] https://bitbucket.wertgarantie.com/projects/SWDBHYVE/repos/hyve-contracts/commits?until=refs/heads/SWDBAPI-2704-contracts
+	- [ ] Übergabe Siteconnect
+		- [ ] PR Mergen stage -> prod
+			- [ ] https://bitbucket.wertgarantie.com/projects/SWDBHYVE/repos/hyve-shop-connect/pull-requests/109/overview
+		- [ ] php artisan migrate
+		- [ ] neuen Datensatz anlegen
+			- [ ] Tabelle
+				- [ ] column: name
+				- [ ] string: default
+				- [ ] JSON von Alex
+	- [ ] Direct
+		- [ ] https://confluence.wertgarantie.com/display/SWDBHYVE/Direct+Aufgaben
+- [x] Contracts Jonas Hartmann Aktivierungs-App?
+- [x] Apps: Legacy token?
+- [x] Docs 18.07 Prod deployen
+- [ ] Hyla Bilder 
+	- [x] Abfragen robuster gestalten
+	- [ ] bereits fehlerhafte Bilder neu laden
+	- [x] Fehlerbehandlung verbessern
+	- [x] Refactoring
+- [x] inventory container in repo hyve-docker einrichten
+- [x] inventory migration der device daten per Command und admin login anstoßen?
+- [x] winsure dokumente spanien für mail `WERTGARANTIE: Se requiere activación` 
+- [x] post mortem
+	- [x] https://jira.wertgarantie.com/browse/SWDBAPI-2703
+- [x] Places Deduplizierung dev einspielen
+- [x] Places Deduplizierung stage einspielen
+- [x] Places-Liste der deduplizierten Attribute (agent & partner nummer)
+- [ ] Tritt Mehrfachpflege noch auf? (lokales Einspielen prod. Db und analyse der created_at Daten)
+- [x] Auswertung NL-Daten Pflege in FHV (Partnernummer, Agentnummer)
+- [x] Löschkonzept Datenspiegelung
+- [x] Legacy Nutzerzahlen für BM
+- [ ] Datenspiegelung löschen
+- [x] Wie am besten PHP 8.2 deployen?
+- [ ] Places3 kamen neue doppelte gepflegte Service values hinzu?
+- [x] neu abgespeicherte Attribute, die zuvor gelöscht wurden, müssen entweder die alten hard löschen oder das softdelete entfernen
+- [x] 18.08.2023 BikeManager Place ohne Agent suchen 
+- [x] gelöschte Attribute tauchen nicht im audit log auf
+	- [x] werden sie gelöscht?
+- [x] Nina zahlen 
+- [x] Assets L10 ausspielen
+- [x] Docs PHP 8.2 Ausspielen
+- [x] Places PHP 8.2 
+	- [x] Tests für PHP 8.2 anpassen
+- [x] Places Datenspiegelung: Datenlöschen Integration mit Thomas
+- [x] Sicherheitsupdates CVE-2023-37260
+	- [x] Places
+	- [x] Docs
+	- [x] Assets
+	- [x] Apps 
+	- [x] Feedback
+- [ ] OpenSearch Update
+- [x] selbes wie gestern
+	- [x] places 8.2 Import Job Tests
+	- [x] Testmatrix Places PHP 8.2
+- [x] ich habe zum 01.12 gekündigt
+- [x] direct debuggen - Keycloak scheint den request nicht anzunehmen, der AKP-Nummer ändert
+- [x] HWS AT Client Failure
+	- [x] Server & Netze wieder über ein Kabel gestolpert?
+- [x] Places am 05.09 auf dev ausspielen
+- [x] OpenSearch-Update evaluieren
+- [x] KK Sozialversicherungsausweis beantragen
+- [x] Accounts in places für Nina und Vasy anlegen
+- [ ] Apps hard delete customer prefill
+- [x] dotnet anschreiben weil zeitschrift ankam
+- [x] Inventory client in apps erstellen
+- [x] places cloning komplette requests mit übergeordentem agent speichern
+- [ ] openapi docs überall prod ausgespielt?
+- [x] Places Stage ausspielen
+- [ ] Doku
+- [x] Dev Datenbank aus Prod neu einspielen
+- [ ] Werte, die nicht gespiegelt werden konnten, da bspw in der FHV überschrieben, in einem Log anzeigen
+	- [ ] unter `/api/batch/{batch_uuid}` dort logs einfügen (pro place)
+	- [ ] app/Jobs/Copy/ProcessCloneEntry.php:142
