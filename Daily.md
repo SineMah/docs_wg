@@ -215,6 +215,19 @@
 - [x] Places Stage ausspielen
 - [ ] Doku
 - [x] Dev Datenbank aus Prod neu einspielen
-- [ ] Werte, die nicht gespiegelt werden konnten, da bspw in der FHV überschrieben, in einem Log anzeigen
-	- [ ] unter `/api/batch/{batch_uuid}` dort logs einfügen (pro place)
-	- [ ] app/Jobs/Copy/ProcessCloneEntry.php:142
+- [x] Werte, die nicht gespiegelt werden konnten, da bspw in der FHV überschrieben, in einem Log anzeigen
+	- [x] unter `/api/batch/{batch_uuid}` dort logs einfügen (pro place)
+	- [x] `app/Jobs/Copy/ProcessCloneEntry.php:142`
+- [x] Erklären:
+	- [x] `DeleteCloneEntries::dispatch($places, $attributes)->onQueue('cloning');`
+		- [x] `app/Jobs/Copy/DeleteCloneEntries.php:39`
+	- [x] `$attribute = LoadType::load($path, $value, $attributes
+		- [x] `app/Jobs/Copy/ProcessCloneEntry.php:137`
+- [x] Place Assets
+	- [x] `app/Eloquent/Filter/AssetFilter.php:93`
+- [ ] OpenSearch Update nach Place-Änderung: Observer/Events funktionieren nicht mehr?
+	- [ ] lokal kein Problem feststellbar
+	- [ ] auf Stage testen 
+- [ ] `app/Jobs/Copy/ProcessCloneEntry.php:45` 
+	- [ ] `$this->cloneEntry->cloneValue->cloneable_type` ist null
+	- [ ] Referenz konnte zum Zeitpunkt des Lesens nicht aus der DB ausgelesen werden
